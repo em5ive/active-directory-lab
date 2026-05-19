@@ -5,6 +5,13 @@ This project documents a cloud-hosted Active Directory homelab built in Microsof
 
 The lab was created to practice enterprise IT administration, troubleshooting, networking, Group Policy, and PowerShell automation in a realistic Windows domain environment.
 
+## The Business Problem This Lab Solves
+
+Every organisation that runs Windows infrastructure — and the majority of enterprises do — relies on Active Directory to answer one fundamental question: who is allowed to do what?
+Active Directory is the identity backbone. It controls which users can log into which computers, which groups can access which file shares, and which policies apply to which parts of the organisation.
+When a new employee joins, IT creates their account in Active Directory and adds them to the right groups. Their access to email, shared drives, printers, and applications is granted automatically based on group membership. When they leave, IT disables one account and every door closes simultaneously.
+This is not legacy technology. Hybrid environments use Active Directory on-premises and sync identities to Microsoft Entra ID (formerly Azure AD) in the cloud. Understanding how to build and manage an Active Directory environment is foundational knowledge that applies directly to cloud roles.
+
 ---
 
 ## Technologies Used
@@ -107,19 +114,6 @@ gpupdate /force
 - Account lockouts
 - Incorrect NTFS permissions
 - Domain join troubleshooting
-
----
-
-## Screenshots
-
-(Add screenshots here)
-
-Examples:
-- Active Directory Users and Computers
-- GPO Drive Mapping
-- Shared Folder Permissions
-- PowerShell Commands
-- Mapped Network Drives
 
 ---
 
